@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cadastro</title>
+
+		<style type="text/css">
+
+			form
+			{
+			width: 300px;
+			height: 300px;
+			border: 1px;
+			border: solid;
+			background-color:rgb(192, 192, 192);
+			}
+
+			body
+			{
+
+			background-color: rgb(255,153,0);
+			opacity:0.5%;
+			width:100%;
+			height:100%;
+			max-width:100%;
+			max-height:100%;
+			}
+
+			h1
+			{
+			background-color:rgb(173,216,230);
+			}
+
+			#bt
+			{
+			width:100px;
+			height: 25px;
+			background-color: rgb(0, 255, 0);
+			}
+
+	</style>
+
+
+	</head>
+
+<body>
+
+<form name="frmCad" method="post" action="processa.php">
+
+<h1> Cadastro </h1>
+<div id="ca">
+
+Nome: <input type="text" placeholder="Informe Nome completo"/> <br/><br/>
+Endereço: <input type="text" placeholder="Informe o Endereço"/><br/><br/>
+Nascimento: <input type="date"/> <br/><br/>
+
+</div>
+
+
+<div id="cidade">
+Cidade<br/><br/>
+	<select>
+		<option>cidade</option>
+		<option>Sâo Paulo</option>
+		<option>Belo Horizonte</option>
+		<option>Rio de Janeiro</option>
+		<option>Bahia</option>
+
+	</select><br/><br/>
+
+	<input id="bt" type="submit" value="Enviar"/>
+
+</form>
+
+</body>
+
+</html>
